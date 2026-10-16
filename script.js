@@ -40,7 +40,7 @@
     name: "LogoVines",
     description:
       "A modern logo gallery platform for uploading and showcasing logos.",
-    tech: "Next.js • TypeScript • Tailwind CSS • MongoDB • Mongoose • Cloudinary • Nodemailer • JWT • Gemini AI",
+    // tech: "Next.js • TypeScript • Tailwind CSS • MongoDB • Mongoose • Cloudinary • Nodemailer • JWT • Gemini AI",
     image: "",
     demo: "https://logovines.vercel.app/",
     source: "https://github.com/whereisbilal/LogoVines",
@@ -49,7 +49,7 @@
     name: "JSProjectForge",
     description:
       "A platform featuring beginner-to-advanced web development projects.",
-    tech: "Next.js • TypeScript • Tailwind CSS • Firebase • Framer Motion",
+    // tech: "Next.js • TypeScript • Tailwind CSS • Firebase • Framer Motion",
     image: "",
     demo: "https://jsprojectforge.vercel.app/",
     source: "https://github.com/whereisbilal/JSProjectForge",
@@ -58,7 +58,7 @@
     name: "DumData",
     description:
       "A fake data generator that helps developers create realistic mock data for apps and APIs.",
-    tech: "Next.js • TypeScript • Tailwind CSS • MongoDB • API",
+    // tech: "Next.js • TypeScript • Tailwind CSS • MongoDB • API",
     image: "",
     demo: "https://dumdata.vercel.app/",
     source: "https://github.com/whereisbilal/DumData",
@@ -66,7 +66,7 @@
   {
     name: "MailVines",
     description: "Free temporary & disposable email.",
-    tech: "Node.js • TypeScript • Tailwind CSS • GitHub • MongoDB",
+    // tech: "Node.js • TypeScript • Tailwind CSS • GitHub • MongoDB",
     image: "",
     demo: "https://mailvines.vercel.app/",
     source: "https://github.com/whereisbilal/MailVines",
@@ -121,7 +121,6 @@
         <div class="project-info">
           <h3>${project.name}</h3>
           <p>${project.description}</p>
-          <div class="project-tech">${project.tech}</div>
           <div class="project-links">
             <a class="small-btn"
                href="${project.demo}"
